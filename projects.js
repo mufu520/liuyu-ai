@@ -20,5 +20,17 @@ window.LIUYU_PROJECTS = [
     description: "在简单的武侠对决中，观察 MLP 参数学习与神经网络的行为变化。",
     label: "第二次作业", kind: "交互实验",
     href: "https://mufu520.github.io/ai_homework/#home", action: "查看第二次作业"
+  },
+  {
+    id: "count-money", category: "toys", title: "记账",
+    description: "一款离线安卓账本，支持手动记账和本机账单截图识别，核对后即可按日、按月查看收支。",
+    label: "安卓应用", kind: "生活工具", image: "covers/count-money.jpg",
+    href: "https://github.com/mufu520/count-money-android/releases/latest", action: "下载安卓版"
+  },
+  {
+    id: "pindou", category: "toys", title: "拼豆图纸",
+    description: "在 Android 手机上离线把图片转换成可编辑的拼豆图纸，支持品牌色卡、用量统计和 PNG／PDF 导出。",
+    label: "安卓应用", kind: "创作工具", image: "covers/pindou.png",
+    href: "https://github.com/mufu520/pindou-android/releases/latest", action: "下载安卓版"
   }
 ];

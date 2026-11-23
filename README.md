@@ -5,7 +5,7 @@
 ## 页面
 
 - `index.html`：个人主页。头像、七位探头 AI 伙伴、两个分类标签和素材署名。
-- `projects.js`：独立项目清单，包含名称、介绍、分类、封面与网址。必须和 `index.html` 放在同一目录。目前有两份课程作业，“我的小玩意”尚未添加项目。
+- `projects.js` 保存两份课程作业和两款安卓应用《记账》《拼豆图纸》。“我的小玩意”中的应用封面放在 `covers/` 目录，点击“下载安卓版”可进入对应应用的最新发布页。
 - `homework-01.html`：第一次作业的完整可玩展示版，含四份 AI 使用记录、游戏体验、拼豆实验与“返回个人主页”。
 - 第二次作业继续位于独立网站；主页链接到现有地址，新标签页打开，保留个人主页。
 - `CREDITS.md`：角色来源与图片处理说明。
@@ -13,9 +13,9 @@
 
 ## 发布到现有 liuyu-ai 仓库
 
-本次升级已有网站：上传 `index.html`、`projects.js`、`README.md` 三个文件到仓库根目录，覆盖同名文件。保留已有 `homework-01.html`、`CREDITS.md` 和记录文件。无需修改分支或 Pages 设置。
+已有分类标签时，将 `projects.js` 和 `covers/` 上传到仓库根目录即可更新作品列表。从旧版首页升级还需上传 `index.html`。
 
-全新发布时：上传本文件夹的五个文件，即以上三个加 `homework-01.html` 和 `CREDITS.md`。`records/` 是可选的独立记录归档。
+全新发布时，将本目录的 `index.html`、`projects.js`、`covers/`、`homework-01.html`、`CREDITS.md` 和 `README.md` 一起上传。`records/` 保存可单独阅读的记录。
 
 GitHub 仓库：`mufu520/liuyu-ai`。保留原有 Pages 发布分支和目录，无需新建仓库。不要把外层“上传到liuyu-ai”文件夹也上传成子目录。不要只上传 ZIP。
 
